@@ -1,7 +1,7 @@
 {
   "name": "@azesmway/react-native-video360",
   "title": "React Native Video360",
-  "version": "0.5.6",
+  "version": "0.1.0",
   "description": "A react native module to play 360 videos",
   "main": "index.js",
   "repository": "https://github.com/azesmway/react-native-video360",
