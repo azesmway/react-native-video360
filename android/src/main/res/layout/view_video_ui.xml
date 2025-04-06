@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.reactlibrary.VideoUiView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_ui_view"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#CC000000">
+
+    <ImageButton
+        android:id="@+id/play_pause_toggle"
+        android:layout_width = "48dp"
+        android:layout_height = "48dp"
+        android:layout_weight = "0"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_pause" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:thumb="@drawable/seekbar_thumb"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/mute_button"
+        android:layout_width = "48dp"
+        android:layout_height = "48dp"
+        android:layout_weight = "0"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_volume_on" />
+</com.reactlibrary.VideoUiView>
